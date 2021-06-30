@@ -1,0 +1,28 @@
+<h1>Restaurant Listings</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+      <th scope="col">Operation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of collection; let i=index;">
+      <th scope="row">{{i+1}}</th>
+      <td>{{item.name}}</td>
+      <td>{{item.address}}</td>
+      <td>{{item.email}}</td>
+      <td>
+        <i (click)="deleteResto(item.id)" class="fa fa-trash" style="font-size:25px; color:red;"></i>
+        &nbsp;&nbsp;
+        <a routerLink="/update/{{item.id}}">
+          <i class="fa fa-edit" style="font-size:25px; color:blue;"></i>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>

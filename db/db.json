@@ -1,0 +1,48 @@
+{
+  "restaurants": [
+    {
+      "id": 2,
+      "name": "Popeyes Restaurant",
+      "address": "Trivandrum",
+      "email": "pp@test.com"
+    },
+    {
+      "name": "McDonald's Restaurant",
+      "email": "mcd@tst.com",
+      "address": "Alleppy",
+      "id": 3
+    },
+    {
+      "name": "Burger King Restaurent",
+      "email": "bkr@test.com",
+      "address": "Calicut",
+      "id": 4
+    },
+    {
+      "name": "Dominos King",
+      "email": "dkr@test.com",
+      "address": "Kottayam",
+      "id": 5
+    },
+    {
+      "name": "Natural Food ",
+      "email": "ntf@test.com",
+      "address": "Malappuram",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "name": "tom",
+      "email": "tom@test.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "sam",
+      "email": "sam@test.com",
+      "password": "456",
+      "id": 2
+    }
+  ]
+}
