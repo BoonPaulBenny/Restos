@@ -1,3 +1,9 @@
+# Start JASON Server
+
+Before running the project,
+* Open db folder in the project
+* Run json-server --watch db.json on your terminal
+
 # Resto
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
